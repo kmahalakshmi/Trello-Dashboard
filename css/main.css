@@ -1,0 +1,346 @@
+body {
+    font-family: 'Karla', sans-serif;
+    overflow-x: hidden;
+}
+
+.header__section {
+    color: #9a9797;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0px 4px 5px rgba(136, 136, 136, 0.3);
+    padding-bottom: 7px !important;
+    height: 50px;
+}
+
+.board__icons {
+    font-size: 9px;
+}
+
+.icon__section {
+    padding-top: 15px;
+}
+
+.top__search {
+    padding-top: 10px;
+}
+.main__board__section
+{
+	padding-right: 0px !important;
+}
+.dashboard__name {
+    font-style: italic;
+    font-weight: 600;
+    font-family: cursive;
+    padding-top: 4px;
+}
+
+.name__trl {
+    padding-right: 10px;
+}
+
+.up__arrow {
+    color: rgba(204, 204, 204, 0.49);
+    transform: rotate(-90deg);
+    font-size: 11px;
+}
+
+.center-block {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon-addon {
+    position: relative;
+    display: block;
+    width: 50%;
+}
+
+.icon-addon.addon-md .glyphicon,
+.icon-addon .glyphicon,
+.icon-addon.addon-md .fa,
+.icon-addon .fa {
+    position: absolute;
+    z-index: 2;
+    left: 10px;
+    font-size: 14px;
+    width: 20px;
+    margin-left: -2.5px;
+    text-align: center;
+    padding: 10px 0;
+    top: 1px
+}
+
+.icon-addon.addon-lg .form-control {
+    line-height: 1.33;
+    height: 46px;
+    font-size: 18px;
+    padding: 10px 16px 10px 40px;
+}
+
+.icon-addon.addon-sm .form-control {
+    height: 30px;
+    padding: 5px 10px 5px 28px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.icon-addon.addon-sm .fa,
+.icon-addon.addon-sm .glyphicon {
+    margin-left: 0;
+    font-size: 12px;
+    left: 5px;
+    top: -1px
+}
+
+.icon-addon .form-control:focus + .glyphicon,
+.icon-addon:hover .glyphicon,
+.icon-addon .form-control:focus + .fa,
+.icon-addon:hover .fa {
+    color: #2580db;
+}
+
+.search__form {
+    border: none;
+    box-shadow: none;
+}
+
+.img__section {
+    width: 11%;
+    margin: 10px 13px 3px 105px;
+}
+
+.login__img {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.welcome__msg {
+    margin-top: 15px;
+    margin-right: 24px;
+}
+
+.notifi__section {
+    margin-top: 15px;
+}
+
+.notifi__icon,
+.bar__icon {
+    color: rgba(185, 181, 181, 0.69);
+}
+
+.menu__item {
+    font-size: 18px;
+    border-left: 1px solid rgba(204, 204, 204, 0.6);
+    padding: 11px 12px 10px 27px;
+}
+
+.main__section {
+    background: rgba(204, 204, 204, 0.22)
+}
+
+.to__do__list {
+    background: white;
+    margin: 16px;
+    box-shadow: 0px 5px 5px rgba(136, 136, 136, 0.3);
+}
+
+.main__board__section:last-child {
+    padding-right: 0px;
+}
+
+.main__board__section {}
+
+.fav__section {
+    padding: 7px 25px 8px 12px;
+    border: 1px solid #2196F3;
+    color: white;
+    background: #2196F3;
+    border-radius: 3px;
+}
+
+.board {
+    color: rgba(0, 0, 0, 0.83);
+    font-weight: 700;
+    font-size: 15px;
+    padding-top: 1px;
+}
+
+.net__section {
+    color: #b0acac;
+    font-size: 11px;
+}
+
+.team__vs {
+    display: inline;
+}
+
+.visible__icon {
+    color: rgba(176, 172, 172, 0.65);
+}
+
+.calndr__section {
+    border: 1px solid #ccc;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    background: transparent;
+    border-radius: 3px;
+    padding-right: 18px !important;
+    color: #7f7d7d;
+}
+
+.like__section {
+    border: 1px solid white;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    background: white;
+    border-radius: 3px;
+    box-shadow: 0px 2px 4px rgba(136, 136, 136, 0.3);
+}
+
+.like__btn {
+    transform: rotateY(180deg);
+}
+
+.text__over {
+    padding-left: 5px;
+}
+
+.calndr__btn {
+    color: #ccc;
+}
+
+.button__section {
+    padding-left: 87px;
+}
+
+.etc__section {
+    font-size: 4px;
+    margin: 2px;
+    margin-top: 10px;
+    color: #ccc;
+}
+.progress__name
+{
+	font-size: 13px;
+}
+
+.circle__icon {
+    font-size: 7px;
+    color: #ccc;
+    margin-top: 7px;
+    margin-right: 7px;
+}
+
+.task__name {
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.72);
+}
+
+.list__items {
+    border: 1px solid rgba(204, 204, 204, 0.4);
+    margin-top: 30px;
+}
+
+.progress__red,
+.progress__blue {
+    background: rgba(255, 0, 0, 0.48);
+    height: 4px;
+    border: 1px solid rgba(255, 0, 0, 0);
+}
+
+.progress__blue {
+    background: rgba(0, 0, 255, 0.47);
+    margin-left: 10px;
+    border: 1px solid rgba(0, 0, 255, 0);
+}
+
+.progress__bar {
+    margin-bottom: 10px;
+}
+
+.attach__icon {
+    transform: rotate(45deg);
+    font-size: 15px;
+    color: #ccc;
+}
+
+.attachment {
+    margin: 10px 20px 30px 0px;
+}
+
+.attach__count {
+    font-size: 13px;
+    color: #ccc;
+}
+
+.plus__icon,
+.info__icon,
+.danger__icon,
+.warning__icon {
+    font-size: 8px;
+    width: 13%;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+.plus__icon {
+    border: 1px dashed #ccc;
+    background: white;
+    color: #ccc;
+}
+
+.info__icon {
+    background-color: rgba(91, 192, 222, 0.29);
+    color: #5bc0de;
+}
+
+.danger__icon {
+    background-color: rgba(217, 83, 79, 0.23);
+    color: #d9534f;
+}
+
+.warning__icon {
+    background-color: rgba(240, 173, 78, 0.36);
+    color: #f0ad4e;
+}
+
+.butn__list {
+    float: right;
+    position: absolute;
+    right: 0;
+    bottom: 14px;
+}
+
+.img__class {
+    width: 100%;
+    opacity: 0.9;
+}
+
+.img__wrap {
+    margin-top: 0px !important;
+    border-top: none;
+}
+
+.add__item {
+    text-align: center;
+    color: #ccc;
+    margin-top: 20px;
+}
+
+.plus__circle {
+    float: right;
+    margin-right: 60px;
+    background: #2196F3;
+    color: white;
+    border-radius: 50%;
+}
+
+
+/*.float__section
+{
+    z-index: 1;
+    margin-left: 136px;
+    margin-top: -30px;
+    background: white;
+}*/

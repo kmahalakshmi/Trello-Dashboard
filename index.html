@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Trello Dashboard</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/core.css">
+</head>
+
+<body>
+    <section class="dashboard__section">
+        <div class="container-fluid dashboard padd__lft__0 padd__rght__0">
+            <div class="row">
+                <div class="col-md-12 header__section">
+                    <div class="col-md-2 icon__section">
+                        <div class="col-md-3 board__icons">
+                            <div class="board__icon__top">
+                                <i class="fa fa-square-o" aria-hidden="true"></i>
+                                <i class="fa fa-square-o" aria-hidden="true"></i>
+                            </div>
+                            <div class="board__icon__bottom">
+                                <i class="fa fa-square-o" aria-hidden="true"></i>
+                                <i class="fa fa-square-o" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <div class="col-md-9 dash__board padd__lf__0 padd__rght__0">
+                            Boards
+                        </div>
+                    </div>
+                    <div class="col-md-7 top__search">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <div class="icon-addon addon-sm">
+                                    <input type="text" placeholder="Search.." class="form-control search__form" id="email">
+                                    <label for="email" class="glyphicon glyphicon-search" rel="tooltip" title="email"></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 dashboard__name colr__blue">
+                            <span class="name__trl">Trello</span>
+                            <i class="fa fa-step-forward up__arrow" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="col-md-3 header__right">
+                        <div class="img__section flt__lft">
+                            <img class="login__img" src="images/login.jpg" alt="">
+                        </div>
+                        <div class="welcome__msg flt__lft">
+                            Hello,Priya!
+                        </div>
+                        <div class="notifi__section flt__lft">
+                            <i class="fa fa-bell-o notifi__icon" aria-hidden="true"></i>
+                        </div>
+                        <div class="menu__item flt__rght">
+                            <i class="fa fa-bars bar__icon" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 main__section padd__20">
+                    <div class="planner__board padd__20">
+                        <div class="col-md-3">
+                            <div class="col-md-1 fav__section">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-md-5">
+                                <div class="board padd__lf__0 padd__rght__0">
+                                    Planner Board
+                                </div>
+                                <div class="net__section padd__lf__0 padd__rght__0">
+                                    Netguru
+                                </div>
+                            </div>
+                            <div class="col-md-5 visible__icon padd__lf__0 padd__rght__0">
+                                <i class="fa fa-eye eye__icon" aria-hidden="true"></i>
+                                <div class="team__vs">
+                                    Team Visible
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-offset-6 col-md-3">
+                            <div class="button__section">
+                                <div class="like__section disp__inline padd__15">
+                                    <i class="fa fa-thumbs-o-down like__btn colr__blue" aria-hidden="true"></i>
+                                    <span class="text__over">Boards</span>
+                                </div>
+                                <div class="calndr__section disp__inline padd__15">
+                                    <i class="fa fa-calendar-minus-o calndr__btn" aria-hidden="true"></i>
+                                    <span class="text__over">Calender</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 wid__100 main__board__section padd__20">
+                        <div class="wid__22 to__do__list flt__lft padd__20">
+                            <div class="col-md-12 task__list padd__lf__0 padd__rght__0">
+                                <i class="fa fa-circle-o flt__lft circle__icon" aria-hidden="true"></i>
+                                <div class="task__name flt__lft">
+                                    Design Sprint
+                                </div>
+                                <div class="etc__section flt__rght">
+                                    <i class="fa fa-circle marg__1" aria-hidden="true"></i>
+                                    <i class="fa fa-circle marg__1" aria-hidden="true"></i>
+                                    <i class="fa fa-circle marg__1" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <div class="col-md-12 list__items padd__20">
+                                <div class="col-md-12 progress__bar padd__lf__0 padd__rght__0">
+                                    <div class="col-md-3 progress__red disp__inline">
+                                    </div>
+                                    <div class="col-md-3 progress__blue disp__inline">
+                                    </div>
+                                </div>
+                                <div class="progress__name">Stage 1 - Prepare</div>
+                                <div class="attachment">
+                                    <i class="fa fa-paperclip attach__icon" aria-hidden="true"></i>
+                                    <div class="attach__count disp__inline">5</div>
+                                </div>
+                                <div class="butn__list">
+                                    <button type="button" class="btn btn-secondary plus__icon">+</button>
+                                    <button type="button" class="btn btn-secondary danger__icon">T</button>
+                                    <button type="button" class="btn btn-secondary warning__icon">S</button>
+                                </div>
+                            </div>
+                            <div class="col-md-12 list__items padd__20 float__section">
+                                <div class="col-md-12 progress__bar padd__lf__0 padd__rght__0">
+                                    <div class="col-md-3 progress__red disp__inline">
+                                    </div>
+                                    <div class="col-md-3 progress__blue disp__inline">
+                                    </div>
+                                </div>
+                                <div class="progress__name">Stage 2 - Understand</div>
+                                <div class="attachment">
+                                    <i class="fa fa-paperclip attach__icon" aria-hidden="true"></i>
+                                    <div class="attach__count disp__inline">9</div>
+                                </div>
+                                <div class="butn__list">
+                                    <button type="button" class="btn btn-secondary plus__icon">+</button>
+                                    <button type="button" class="btn btn-secondary danger__icon">T</button>
+                                    <button type="button" class="btn btn-secondary warning__icon">S</button>
+                                </div>
+                            </div>
+                            <div class="col-md-12 list__items padd__20">
+                                <div class="col-md-12 progress__bar padd__lf__0 padd__rght__0">
+                                    <div class="col-md-3 progress__red disp__inline">
+                                    </div>
+                                    <div class="col-md-3 progress__blue disp__inline">
+                                    </div>
+                                </div>
+                                <div class="progress__name">Stage 3 - Diverge</div>
+                                <div class="attachment">
+                                    <i class="fa fa-paperclip attach__icon" aria-hidden="true"></i>
+                                    <div class="attach__count disp__inline">3</div>
+                                </div>
+                                <div class="butn__list">
+                                    <button type="button" class="btn btn-secondary plus__icon">+</button>
+                                    <button type="button" class="btn btn-secondary info__icon">A</button>
+                                    <button type="button" class="btn btn-secondary danger__icon">T</button>
+                                    <button type="button" class="btn btn-secondary warning__icon">S</button>
+                                </div>
+                            </div>
+                            <div class="col-md-12 add__item">
+                                Add card
+                            </div>
+                        </div>
+                        <div class="wid__22 to__do__list flt__lft padd__20">
+                            <div class="col-md-12 task__list padd__lf__0 padd__rght__0">
+                                <i class="fa fa-circle-o flt__lft circle__icon" aria-hidden="true"></i>
+                                <div class="task__name flt__lft">
+                                    Projects
+                                </div>
+                                <div class="etc__section flt__rght">
+                                    <i class="fa fa-circle marg__1" aria-hidden="true"></i>
+                                    <i class="fa fa-circle marg__1" aria-hidden="true"></i>
+                                    <i class="fa fa-circle marg__1" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <div class="col-md-12 list__items padd__lf__0 padd__rght__0">
+                                <div class="padd__lf__0 padd__rght__0">
+                                    <img class="img__class" src="images/img.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="img__wrap col-md-12 list__items padd__20">
+                                <div class="col-md-12 progress__bar padd__lf__0 padd__rght__0 marg__top__20">
+                                    <div class="col-md-3 progress__red disp__inline">
+                                    </div>
+                                    <div class="col-md-3 progress__blue disp__inline">
+                                    </div>
+                                </div>
+                                <div class="progress__name">Architecture App</div>
+                                <div class="attachment">
+                                    <i class="fa fa-paperclip attach__icon" aria-hidden="true"></i>
+                                    <div class="attach__count disp__inline">7</div>
+                                </div>
+                                <div class="butn__list">
+                                    <button type="button" class="btn btn-secondary plus__icon">+</button>
+                                    <button type="button" class="btn btn-secondary info__icon">A</button>
+                                    <button type="button" class="btn btn-secondary warning__icon">S</button>
+                                </div>
+                            </div>
+                            <div class="col-md-12 list__items padd__20">
+                                <div class="col-md-12 progress__bar padd__lf__0 padd__rght__0">
+                                    <div class="col-md-3 progress__red disp__inline">
+                                    </div>
+                                    <div class="col-md-3 progress__blue disp__inline">
+                                    </div>
+                                </div>
+                                <div class="progress__name">Scoping Session TLF</div>
+                                <div class="attachment">
+                                    <i class="fa fa-paperclip attach__icon" aria-hidden="true"></i>
+                                    <div class="attach__count disp__inline">51</div>
+                                </div>
+                                <div class="butn__list">
+                                    <button type="button" class="btn btn-secondary plus__icon">+</button>
+                                    <button type="button" class="btn btn-secondary info__icon">A</button>
+                                </div>
+                            </div>
+                            <div class="col-md-12 add__item">
+                                Add card
+                            </div>
+                        </div>
+                        <div class="wid__22 to__do__list flt__lft padd__20">
+                            <div class="col-md-12 task__list padd__lf__0 padd__rght__0">
+                                <i class="fa fa-circle-o flt__lft circle__icon" aria-hidden="true"></i>
+                                <div class="task__name flt__lft">
+                                    Product Checkup
+                                </div>
+                                <div class="etc__section flt__rght">
+                                    <i class="fa fa-circle marg__1" aria-hidden="true"></i>
+                                    <i class="fa fa-circle marg__1" aria-hidden="true"></i>
+                                    <i class="fa fa-circle marg__1" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <div class="col-md-12 list__items padd__20">
+                                <div class="col-md-12 progress__bar padd__lf__0 padd__rght__0">
+                                    <div class="col-md-3 progress__red disp__inline">
+                                    </div>
+                                    <div class="col-md-3 progress__blue disp__inline">
+                                    </div>
+                                </div>
+                                <div class="progress__name">Recommended Tools</div>
+                                <div class="attachment">
+                                    <i class="fa fa-paperclip attach__icon" aria-hidden="true"></i>
+                                    <div class="attach__count disp__inline">1</div>
+                                </div>
+                                <div class="butn__list">
+                                    <button type="button" class="btn btn-secondary plus__icon">+</button>
+                                    <button type="button" class="btn btn-secondary danger__icon">T</button>
+                                    <button type="button" class="btn btn-secondary warning__icon">S</button>
+                                </div>
+                            </div>
+                            <div class="col-md-12 list__items padd__20">
+                                <div class="col-md-12 progress__bar padd__lf__0 padd__rght__0">
+                                    <div class="col-md-3 progress__red disp__inline">
+                                    </div>
+                                    <div class="col-md-3 progress__blue disp__inline">
+                                    </div>
+                                </div>
+                                <div class="progress__name">Gathering Informations</div>
+                                <div class="attachment">
+                                    <i class="fa fa-paperclip attach__icon" aria-hidden="true"></i>
+                                    <div class="attach__count disp__inline">41</div>
+                                </div>
+                                <div class="butn__list">
+                                    <button type="button" class="btn btn-secondary plus__icon">+</button>
+                                    <button type="button" class="btn btn-secondary warning__icon">S</button>
+                                </div>
+                            </div>
+                            <div class="col-md-12 add__item">
+                                Add card
+                            </div>
+                        </div>
+                        <div class="wid__22 to__do__list flt__lft padd__20">
+                            <div class="col-md-12 task__list padd__lf__0 padd__rght__0">
+                                <i class="fa fa-circle-o flt__lft circle__icon" aria-hidden="true"></i>
+                                <div class="task__name flt__lft">
+                                    Board Name
+                                </div>
+                                <div class="etc__section flt__rght">
+                                    <i class="fa fa-circle marg__1" aria-hidden="true"></i>
+                                    <i class="fa fa-circle marg__1" aria-hidden="true"></i>
+                                    <i class="fa fa-circle marg__1" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <div class="col-md-12 list__items padd__lf__0 padd__rght__0">
+                                <div class="padd__lf__0 padd__rght__0">
+                                    <img class="img__class" src="images/img.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="img__wrap col-md-12 list__items padd__20">
+                                <div class="col-md-12 progress__bar padd__lf__0 padd__rght__0 marg__top__20">
+                                    <div class="col-md-3 progress__red disp__inline">
+                                    </div>
+                                    <div class="col-md-3 progress__blue disp__inline">
+                                    </div>
+                                </div>
+                                <div class="progress__name">Past Year Trips &amp; Events </div>
+                                <div class="attachment">
+                                    <i class="fa fa-paperclip attach__icon" aria-hidden="true"></i>
+                                    <div class="attach__count disp__inline">11</div>
+                                </div>
+                                <div class="butn__list">
+                                    <button type="button" class="btn btn-secondary plus__icon">+</button>
+                                    <button type="button" class="btn btn-secondary info__icon">A</button>
+                                    <button type="button" class="btn btn-secondary warning__icon">S</button>
+                                </div>
+                            </div>
+                            <div class="col-md-12 list__items padd__20">
+                                <div class="col-md-12 progress__bar padd__lf__0 padd__rght__0">
+                                    <div class="col-md-3 progress__red disp__inline">
+                                    </div>
+                                    <div class="col-md-3 progress__blue disp__inline">
+                                    </div>
+                                </div>
+                                <div class="progress__name">Stage 1 - Prepare</div>
+                                <div class="attachment">
+                                    <i class="fa fa-paperclip attach__icon" aria-hidden="true"></i>
+                                    <div class="attach__count disp__inline">32</div>
+                                </div>
+                                <div class="butn__list">
+                                    <button type="button" class="btn btn-secondary plus__icon">+</button>
+                                    <button type="button" class="btn btn-secondary info__icon">A</button>
+                                </div>
+                            </div>
+                            <div class="col-md-12 add__item">
+                                Add card
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-secondary plus__circle">+</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- <script src="js/main.js"></script> -->
+</body>
+
+</html>
