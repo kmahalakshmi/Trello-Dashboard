@@ -24,7 +24,7 @@ body {
 }
 /*.main__board__section
 {
-	padding-right: 0px !important;
+    padding-right: 0px !important;
 }*/
 .dashboard__name {
     font-style: italic;
@@ -222,7 +222,7 @@ body {
 }
 .progress__name
 {
-	font-size: 13px;
+    font-size: 13px;
 }
 
 .circle__icon {
