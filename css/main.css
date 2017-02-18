@@ -22,10 +22,10 @@ body {
 .top__search {
     padding-top: 10px;
 }
-.main__board__section
+/*.main__board__section
 {
 	padding-right: 0px !important;
-}
+}*/
 .dashboard__name {
     font-style: italic;
     font-weight: 600;
@@ -106,7 +106,7 @@ body {
 
 .img__section {
     width: 11%;
-    margin: 10px 13px 3px 105px;
+    margin: 10px 13px 3px 70px;
 }
 
 .login__img {
@@ -211,7 +211,7 @@ body {
 }
 
 .button__section {
-    padding-left: 87px;
+    padding-left: 47px;
 }
 
 .etc__section {
