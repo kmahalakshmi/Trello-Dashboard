@@ -1,0 +1,60 @@
+.padd__10
+{
+	padding: 10px;
+}
+.padd__15
+{
+	padding: 15px;
+}
+.marg__1
+{
+	margin: 1px;
+}
+.marg__top__20
+{
+	margin-top: 20px;
+}
+.padd__lft__10
+{
+	padding-left: 10px;
+}
+.padd__lf__0
+{
+	padding-left: 0px;
+}
+.padd__rght__0
+{
+	padding-right: 0px;
+}
+.colr__blue
+{
+	color: #2196F3;
+}
+.flt__lft
+{
+	float: left;
+}
+.flt__rght
+{
+	float: right;
+}
+.padd__20
+{
+	padding: 20px;
+}
+.wid__22
+{
+	width: 22%;
+}
+.wid__100
+{
+	width: 100%;
+}
+.marg__lft__30
+{
+	margin-left: 35px;
+}
+.disp__inline
+{
+	display: inline;
+}
